@@ -48,7 +48,8 @@ exports.enrichIdpWithConfigData = function (idp) {
         organizationNames: config.organizationNames,
         organizationDisplayNames: config.organizationDisplayNames,
         organizationUrls: config.organizationUrls,
-        attributeConsumingServiceName: config.attributeConsumingServiceName
+        attributeConsumingServiceName: config.attributeConsumingServiceName,
+        metadataDescriptorUrl: idp.metadata_url
     };
     return idp;
 }
