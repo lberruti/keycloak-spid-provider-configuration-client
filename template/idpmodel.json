@@ -1,6 +1,6 @@
 {
     "alias": "--",
-    "providerId": "spid",
+    "providerId": "spid-saml",
     "enabled": true,
     "updateProfileFirstLoginMode": "on",
     "trustEmail": true,

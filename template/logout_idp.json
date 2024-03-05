@@ -1,6 +1,6 @@
 {
   "alias": "logout-ep",
-  "providerId": "spid",
+  "providerId": "spid-saml",
   "enabled": true,
   "updateProfileFirstLoginMode": "on",
   "trustEmail": true,
